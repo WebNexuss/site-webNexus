@@ -4032,6 +4032,7 @@ body[data-aos-easing=ease] [data-aos] {
   display: inline-flex;
   align-items: center;
   border-bottom: 1px solid rgba(19, 55, 187, 0.25); }
+  
   .da-sec-titlte .sub_title span {
     margin-right: 8px; }
 .da-sec-titlte .title {
@@ -13078,8 +13079,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::before, body .mfp-w
 .thm-btn {
   z-index: 1;
   font-size: 20px;
-  font-weight: 500;
-  line-height: 16px;
+  font-weight: 200;
+  line-height: 5px;
   letter-spacing: .02em;
   padding: 10px 20px;
   border-style: none;
