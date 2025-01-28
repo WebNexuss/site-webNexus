@@ -57,7 +57,7 @@
   --font-heading-five: "Red Hat Display", serif;
   --color-primary: #d44a00;
   --color-primary-rgb: 212, 74, 0;
-  --color-primary-two: #0f55dc;
+  --color-primary-two: #000435;
   --color-primary-two-rgb: 15, 83, 220;
   --color-primary-three: #9a4497;
   --color-primary-three-rgb: 154, 68, 151;
@@ -66,9 +66,9 @@
   --color-primary-five: #1438bc;
   --color-primary-five-rgb: 20, 56, 188;
   --color-heading: #111112;
-  --color-heading-two: #0c111d;
+  --color-heading-two: #010c25;
   --color-heading-three: #16140c;
-  --color-heading-four: #212877;
+  --color-heading-four: #000435;
   --color-default: #49515b;
   --color-default-two: #494d57;
   --color-yellow: #ffd600;
@@ -4716,7 +4716,7 @@ body[data-aos-easing=ease] [data-aos] {
 .da-about-left .title {
   font-size: 50px;
   line-height: 64px;
-  color: #212877; }
+  color: #000435; }
   @media (max-width: 767px) {
     .da-about-left .title {
       font-size: 30px;
