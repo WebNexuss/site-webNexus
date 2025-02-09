@@ -4527,9 +4527,10 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .header-style-six .stricked-menu .thm-btn--header:hover {
-  color: #0eb11c;
+  color: #7300E9;
   background-color: #fff;
 }
+
 
 .header-style-six .stricked-menu .header-logo img:nth-child(1) {
   display: none;
@@ -18890,6 +18891,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   color: var(--color-white);
 }
 
+/*cor do botão no background*/
+
 .thm-btn--data {
   padding: 34px 0;
   background: var(--color-white);
@@ -18897,9 +18900,11 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   box-shadow: 0 7px 8px 0 rgba(6, 19, 39, 0.01);
 }
 
+/*texto do btn background*/
+
 .thm-btn--data .xb-item--text {
   font-weight: 700;
-  color: #2042BF;
+  color: #7300E9;
   letter-spacing: 0em;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
@@ -18910,16 +18915,20 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   left: 57px;
 }
 
+/*esfera do btn background*/
+
 .thm-btn--data .xb-item--icon {
   height: 30px;
   width: 30px;
   margin: 0px 17px;
-  background: #2042BF;
+  background: #7300E9;
 }
+
+/* botão + do btn background*/
 
 .thm-btn--data .xb-item--icon i {
   transform: rotate(0deg);
-  color: var(--color-white);
+  color: #fff
 }
 
 .thm-btn--data .xb-item--hidden-text {
@@ -18940,8 +18949,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   opacity: 0;
 }
 
+/*botão do header com hover*/
+
 .thm-btn--data:hover {
-  background: #1438bc;
+  background-color: #7300E9;
 }
 
 .thm-btn--data:hover .xb-item--holder {
