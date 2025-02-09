@@ -9705,10 +9705,10 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .da-feature-item .xb-item--title {
-  font-size: 38px;
+  font-size: 24px;
   font-weight: 400;
-  line-height: 50px;
-  margin: 35px 0 28px;
+  line-height: 40px;
+  margin: 35px 0 50px;
 }
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
@@ -9721,7 +9721,7 @@ body[data-aos-easing=ease] [data-aos] {
 @media (max-width: 1199px) {
   .da-feature-item .xb-item--title {
     font-size: 22px;
-    line-height: 36px;
+    line-height: 10px;
     margin: 10px 0 0;
   }
 }
