@@ -6579,8 +6579,8 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .about-left .about-item_box .xb-item--icon {
-  width: 70px;
-  height: 70px;
+  width: 66px;
+  height: 62px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10892,7 +10892,7 @@ body[data-aos-easing=ease] [data-aos] {
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
-  color: #1438bc;
+  color: #2041bb;
   display: inline-block;
 }
 
@@ -11073,8 +11073,10 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 ::selection {
-  background-color: #ffcc00; /* Cor de fundo da seleção */
-  color: #000; /* Cor do texto selecionado */
+  background-color: #ffcc00;
+  /* Cor de fundo da seleção */
+  color: #000;
+  /* Cor do texto selecionado */
 }
 
 .da-quote .xb-item--title {
@@ -11083,7 +11085,7 @@ body[data-aos-easing=ease] [data-aos] {
   line-height: 58px;
   letter-spacing: -0.01em;
   color: #fff;
- 
+
 }
 
 @media (max-width: 991px) {
@@ -18340,9 +18342,9 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 .hero-style-six .xb-hero .xb-item--content {
   font-weight: 500;
-  font-size: 24px;
-  line-height: 40px;
-  max-width: 545px;
+  font-size: 20px;
+  line-height: 32px;
+  max-width: 700px;
   color: var(--color-white);
 }
 
@@ -19000,7 +19002,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .thm-btn--data_blue:hover .xb-item--text {
-  color: #1438bc;
+  color: #7300E9;
 }
 
 .thm-btn--data-strock {
