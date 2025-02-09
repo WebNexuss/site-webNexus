@@ -4521,6 +4521,8 @@ body[data-aos-easing=ease] [data-aos] {
   color: var(--color-white);
 }
 
+/*btn cor scroll*/
+
 .header-style-six .stricked-menu .thm-btn--header {
   color: #fff;
   background-color: #7300E9;
@@ -4549,7 +4551,7 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .header-style-six .thm-btn--header {
-  color: #ffffff;
+  color: #7300E9;
   padding: 15px 36px;
   font-family: var(--font-heading-five);
 }
@@ -4561,8 +4563,8 @@ body[data-aos-easing=ease] [data-aos] {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #fff;
-  color: #7300E9;
+  background: #7300E9;
+  color: #fff;
   border-radius: 50%;
 }
 
@@ -11032,8 +11034,8 @@ body[data-aos-easing=ease] [data-aos] {
 
 .da-quote {
   width: 59.1%;
-  background: #1438bc;
-  padding: 93px 165px 100px 240px;
+  background: #7300E9;
+  padding: 38px 165px 100px 240px;
   min-height: 645px;
 }
 
@@ -11109,7 +11111,7 @@ body[data-aos-easing=ease] [data-aos] {
 .da-cta {
   width: 40.9%;
   min-height: 645px;
-  background: #53baff;
+  background: #2AC6FF;
   padding: 0 135px;
   display: flex;
   align-items: center;
@@ -18278,7 +18280,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 .hero-style-six {
   min-height: 1006px;
-  background-image: url('/assets/img/icon/banner-webnexus.jpg');
+  background-image: url(../img/bg/hero-banner-v2-2\ 1.png);
   z-index: 1;
   background-repeat: no-repeat;
 }
@@ -18960,7 +18962,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 }
 
 .thm-btn--data:hover .xb-item--text {
-  color: var(--color-white);
+  color: #fff;
 }
 
 .thm-btn--data:hover .xb-item--text1 {
@@ -19008,6 +19010,8 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   color: #1438bc;
 }
 
+/* Bnt principal do Header */
+
 .thm-btn--header {
   font-size: 18px;
   font-weight: 700;
@@ -19015,7 +19019,7 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   border: none;
   padding: 16.5px 25.7px;
   color: var(--color-heading);
-  background: var(--color-white);
+  background-color: #fff;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -19031,8 +19035,10 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   transition: 0.3s;
 }
 
+/*cor do texto do btn principal do header*/
+
 .thm-btn--header:hover {
-  color: var(--color-white);
+  color: #fff;
 }
 
 .thm-btn--header:hover svg path {
