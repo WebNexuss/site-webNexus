@@ -21733,6 +21733,11 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
   color: #fff;
 }
 
+.navbar-nav .nav-item .nav-link-contact{
+  color: #000;
+}
+
+
 @media (max-width: 992px) {
 
   /* Tamanho para telas menores que LG */
