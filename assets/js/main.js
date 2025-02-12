@@ -1092,3 +1092,10 @@
     });
 
 })(jQuery);
+
+
+document.addEventListener("DOMContentLoaded", function(){
+	document.querySelector(".close-btn").addEventListener("click", function(){
+		document.querySelector("#navbarNav").classList.remove("show");
+	})
+})
