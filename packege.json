@@ -1,0 +1,19 @@
+{
+  "name": "WebNexusCode",
+  "version": "1.0.0",
+  "description": "Site profissional",
+  "scripts": {
+    "dev": "vite", 
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "homepage": "https://github.com/WebNexuss/site-webNexus",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WebNexuss/site-webNexus"
+  },
+  "keywords": ["site", "deploy", "frontend"],
+  "author": "Jhonatan Silva",
+  "license": "MIT"
+}
