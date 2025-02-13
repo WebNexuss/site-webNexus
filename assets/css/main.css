@@ -4256,6 +4256,7 @@ body[data-aos-easing=ease] [data-aos] {
 .header-style-three .main-menu>ul>li>.submenu>li:hover>a::before,
 .header-style-three .main-menu>ul>li>.submenu>li.active>a::before {
   opacity: 1;
+
 }
 
 .header-style-three .main-menu ul li .submenu li:hover>a a,
@@ -4833,11 +4834,6 @@ body[data-aos-easing=ease] [data-aos] {
   }
 }
 
-.main-menu ul li.active>a,
-.main-menu ul li:hover>a {
-  background: var(--color-white);
-  color: var(--color-black);
-}
 
 .main-menu ul li.menu-item-has-children>a span::after {
   display: inline-block;
@@ -4959,6 +4955,7 @@ body[data-aos-easing=ease] [data-aos] {
   position: absolute;
   top: 9px;
   right: 15px;
+  width: 500px;
   content: "\f105";
   font-size: 13px;
   font-family: 'Font Awesome 5 Pro';
@@ -6757,6 +6754,7 @@ body[data-aos-easing=ease] [data-aos] {
   .da-about-left .title {
     font-size: 30px;
     line-height: 45px;
+    margin-top: 60px;
   }
 }
 
@@ -21731,8 +21729,14 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
 
 .navbar-nav .nav-item .nav-link{
   color: #fff;
+  font-size: 18px;
+  margin-right: 15px;
 }
 
+
+.navbar-nav .nav-item .nav-link:hover{
+  color: #000;
+}
 .navbar-nav .nav-item .nav-link-contact{
   color: #000;
 }
@@ -21772,9 +21776,16 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     /* Alinha os itens verticalmente */
   }
 
+  .mg:hover{
+    margin: 30px;
+  }
+
+ 
+
   .navbar-nav .nav-item .nav-link{
     color: #000;
   }
+
 
   .navbar-nav .nav-item {
     margin: 10px 0;
@@ -21789,6 +21800,45 @@ body .mfp-wrap .mfp-container .mfp-content .mfp-close:hover::after {
     color: white;
     cursor: pointer;
   }
+
+  .main-menu ul li .submenu li {
+    margin-right: 0;
+    padding: 0 6px;
+    width: 850px;
+    text-align: center;
+  }
+
+}
+
+@media (min-width: 780px) and (max-width: 1080px){
+  .main-menu ul li .submenu li {
+    margin-right: 0;
+    padding: 0 6px;
+    width: 970px;
+    text-align: center;
+  }
+} 
+@media (min-width: 540px) and (max-width: 780px) {
+
+  /* Tamanho para telas menores que LG */
+  .main-menu ul li .submenu li {
+    margin-right: 0;
+    padding: 0 6px;
+    width: 720px;
+    text-align: center;
+  }
+
+}
+@media (min-width: 380px) and (max-width: 540px) {
+
+  /* Tamanho para telas menores que LG */
+  .main-menu ul li .submenu li {
+    margin-right: 0;
+    padding: 0 6px;
+    width: 500px;
+    text-align: center;
+  }
+
 }
 
 
