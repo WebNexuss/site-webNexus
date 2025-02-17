@@ -1099,7 +1099,7 @@
 
 async function submitForm(nome, email, telefone, mensagem) {
 	try {
-		const response = await fetch("http://localhost:3000/contact", {
+		const response = await fetch("https://serveremailwebnexus.onrender.com/contact", {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({ nome, email, telefone, mensagem }),
@@ -1129,6 +1129,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	if (sendEmail) {
 		sendEmail.addEventListener("click", function (e) {
 			e.preventDefault();
+			sendEmail.value("Processando...")
 			
 			let nome = document.querySelector("#name").value;
 			let email = document.querySelector("#email").value;
@@ -1137,7 +1138,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 			
 			submitForm(nome, email, tel, msg);
-			
+			location.reload();
 		})
 	}
 
