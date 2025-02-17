@@ -1129,7 +1129,7 @@ document.addEventListener("DOMContentLoaded", function () {
 	if (sendEmail) {
 		sendEmail.addEventListener("click", function (e) {
 			e.preventDefault();
-			sendEmail.value("Processando...")
+			document.querySelector(".cp-btn").firstChild.data = "Processando...";
 			
 			let nome = document.querySelector("#name").value;
 			let email = document.querySelector("#email").value;
