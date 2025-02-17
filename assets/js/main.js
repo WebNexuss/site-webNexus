@@ -1108,7 +1108,11 @@ async function submitForm(nome, email, telefone, mensagem) {
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({ nome, email, telefone, mensagem }),
 		})
-			.then(response => response.json())  // Agora podemos ler a resposta.
+			.then(response => {
+				if(response.ok){
+					alert("Formulário Enviado com Sucesso!")
+				}
+	})  // Agora podemos ler a resposta.
 			.then(data => console.log("Resposta:", data))
 			.catch(error => console.error("Erro ao enviar:", error));
 
@@ -1158,7 +1162,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 			await submitForm(nome, email, tel, msg);
-			
+			location.reload();
 		})
 	}
 
