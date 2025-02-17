@@ -1098,13 +1098,32 @@
 
 
 async function submitForm(nome, email, telefone, mensagem) {
+	debugger
+	try {
+
+		console.log("Tentando enviar e-mail...");
+		console.log("Dados:", nome, email, telefone, mensagem);
+		await fetch("https://serveremailwebnexus.onrender.com/contact", {
+			method: "POST",
+			headers: { "Content-Type": "application/json" },
+			body: JSON.stringify({ nome, email, telefone, mensagem }),
+		})
+			.then(response => response.json())  // Agora podemos ler a resposta.
+			.then(data => console.log("Resposta:", data))
+			.catch(error => console.error("Erro ao enviar:", error));
+
+	} catch (error) {
+		console.log(error)
+	}
+
+
+	/*
 	try {
 		const response = await fetch("https://serveremailwebnexus.onrender.com/contact", {
 			method: "POST",
 			headers: { "Content-Type": "application/json" },
 			body: JSON.stringify({ nome, email, telefone, mensagem }),
 		});
-		debugger;
 		const data = await response.json();
 
 		if (response.ok) {
@@ -1116,6 +1135,7 @@ async function submitForm(nome, email, telefone, mensagem) {
 		console.error("Erro ao enviar e-mail:", error.message);
 		alert("Erro ao enviar e-mail.");
 	}
+		*/
 }
 
 
@@ -1127,18 +1147,18 @@ document.addEventListener("DOMContentLoaded", function () {
 	let sendEmail = document.querySelector(".cp-btn");
 
 	if (sendEmail) {
-		sendEmail.addEventListener("click", function (e) {
+		sendEmail.addEventListener("click", async function (e) {
 			e.preventDefault();
 			document.querySelector(".cp-btn").firstChild.data = "Processando...";
-			
+
 			let nome = document.querySelector("#name").value;
 			let email = document.querySelector("#email").value;
 			let tel = document.querySelector("#phone").value;
 			let msg = document.querySelector("#msg").value;
 
+
+			await submitForm(nome, email, tel, msg);
 			
-			submitForm(nome, email, tel, msg);
-			location.reload();
 		})
 	}
 
