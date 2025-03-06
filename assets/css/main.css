@@ -4634,8 +4634,9 @@ body[data-aos-easing=ease] [data-aos] {
 }
 
 .stricked-menu.stricky-fixed {
-  visibility: visible;
+  visibility: hidden;
   transform: translateY(0%);
+  color: #000;
 }
 
 .header-style-one .stricked-menu .header__wrap .thm-btn--header {
