@@ -7,7 +7,11 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 
     document.addEventListener('click', function(e) {
-        console.log(e.target.href.includes("api.whatsapp"))
+        if(e.target.href.includes("api.whatsapp")){
+            // Acionamento WhatsApp
+        }
     })
+
+    
 
 })
