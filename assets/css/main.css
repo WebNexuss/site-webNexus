@@ -9673,13 +9673,22 @@ body[data-aos-easing=ease] [data-aos] {
 
 @media only screen and (min-width: 1200px) and (max-width: 1500px) {
   .da-feature-item {
+    padding: 100px 40px;
+    height: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1500px) {
+  .da-feature-item {
     padding: 60px 40px;
+    height: 100%;
   }
 }
 
 @media (max-width: 1199px) {
   .da-feature-item {
     padding: 40px 20px;
+    height: 100%;
   }
 }
 
